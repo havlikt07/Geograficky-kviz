@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.11.12315.225 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeografickyKviz", "GeografickyKviz.csproj", "{5CED5A7B-3ED9-40F1-BD15-F04567FE42DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CED5A7B-3ED9-40F1-BD15-F04567FE42DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CED5A7B-3ED9-40F1-BD15-F04567FE42DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CED5A7B-3ED9-40F1-BD15-F04567FE42DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CED5A7B-3ED9-40F1-BD15-F04567FE42DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30EEF530-4FEA-48DA-8E78-218D8BA92E3A}
+	EndGlobalSection
+EndGlobal
