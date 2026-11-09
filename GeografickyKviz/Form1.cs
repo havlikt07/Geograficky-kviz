@@ -15,6 +15,9 @@ namespace GeografickyKviz
         public Form1()
         {
             InitializeComponent();
+
+            this.MinimumSize = new Size(1024, 665);
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
     }
 }

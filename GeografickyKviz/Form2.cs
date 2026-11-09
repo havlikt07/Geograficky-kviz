@@ -12,9 +12,17 @@ namespace GeografickyKviz
 {
     public partial class Form2 : Form
     {
+        private Bitmap visualMap;
+        private Bitmap mapMask;
+        
         public Form2()
         {
             InitializeComponent();
+
+            visualMap = Properties.Resources.Mapa_cz;
+            mapMask = Properties.Resources.Mapa_cz_maska;
+
+            pictureBox1.Image = visualMap;
         }
     }
 }
