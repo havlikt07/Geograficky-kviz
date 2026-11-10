@@ -8,5 +8,16 @@ namespace GeografickyKviz
 {
     internal class Mesto
     {
+        public string Name { get; set; }
+
+        public float RelativeX { get; set; }
+        public float RelativeY { get; set; }
+
+        public Mesto(string name, float relativeX, float relativeY)
+        {
+            Name = name;
+            RelativeX = relativeX;
+            RelativeY = relativeY;
+        }
     }
 }
